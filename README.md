@@ -20,6 +20,17 @@ Ensuite, nous créerons trois objets connectés, voici la liste de course :
 - 1 capteur TDS (Total Dissolved Solids) - [Lien](https://www.amazon.fr/gp/product/B08KXRHK7H/ref=ewc_pr_img_3?smid=A22SB6W8K59090&psc=1)
 - 1 capteur de pH - [Lien](https://www.amazon.fr/gp/product/B081QK9TX2/ref=ewc_pr_img_2?smid=A2KRFTGU6PBCQ4&psc=1)
 - 1 capteur de température - [Lien](https://www.amazon.fr/gp/product/B01MZG48OE/ref=ewc_pr_img_1?smid=A1X7QLRQH87QA3&psc=1)
+- 1 ecran LCD 16x2
 
-## Comment créer facilement les 3 objets connectés ?
-Rien, de plus simple, nous utiliserons ESPHome pour créer le fichier binaire pour le capteur
+## PROTOTYPE :
+Voici une photo du montage d'exemple afin de faire fonctionner l'ESP32 ainsi que pour le moment les capteurs de température et des TDS
+![Prototype](img/example-1.png)
+
+Voici ce qu'Home Assistant me retourne comme valeurs
+![Retour Home Assistant](img/example-2.png)
+
+Voici un "schéma" du câblage (j'ai fait du mieux que j'ai pu) :
+![Schéma](img/Cablage.png)
+
+Le code se trouve dans le repo :)
+
