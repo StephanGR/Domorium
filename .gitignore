@@ -1,0 +1,4 @@
+domorium-frontend/node_modules
+db
+server/.env
+.DS_Store

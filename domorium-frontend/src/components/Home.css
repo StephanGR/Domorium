@@ -1,0 +1,29 @@
+body {
+    background-image: url('../assets/aquarium-bg.jpg');
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background: url('../assets/aquarium-bg.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.masthead h1 {
+    font-size: 4rem;
+}
+
+.about-section {
+    padding: 100px 0;
+    background: #1a1a1a;
+}
+
+.btn-primary {
+    background-color: #64a19d;
+    border-color: #64a19d;
+}
